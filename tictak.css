@@ -1,0 +1,113 @@
+.block{
+
+    height: 600px;
+    width: 80%;
+display: flex;
+justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: inline-block;
+    height: 500px;
+border-radius: 2%;
+width: 420px;
+background-color: rgb(48, 196, 97);
+}
+.out{
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+.player1{
+font-size: 22px;
+position: relative;
+left: 5%;
+padding: 5px;
+
+font-family: sans-serif;
+color: white;
+}
+.player2{
+    position: relative;
+    left: 5%;
+    font-size: 22px;
+
+    font-family: sans-serif;
+    color: white;
+padding: 5px;
+
+}
+.create{
+    border-bottom: 3px solid black;
+    background-color: black;
+  position: relative;
+  top: 5%;
+}
+
+.container input{
+    width: 120px;
+    height: 120px;
+font-size: 42px;
+border-radius: 0px;
+color: white;
+margin-left: -1%;
+position: relative;
+border: 0.5px solid rgb(235, 229, 229);
+background-color: white;
+}
+.buttons{
+   position: relative;
+   left: 7%;
+  
+}
+@media screen and (max-width:500px){
+    .container input{
+        width: 110px;
+        height: 110px;
+    }
+}
+@media screen and (max-width:470px){
+    .container input{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width:435px){
+    .container input{
+        width: 90px;
+        height: 90px;
+    }
+}
+@media screen and (max-width:390px){
+    .container input{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media screen and (max-width:350px){
+    .container input{
+        width: 70px;
+        height: 70px;
+    }
+}
+@media screen and (max-width:310px){
+    .container input{
+        width: 60px;
+        height: 60px;
+    }
+}
+@media screen and (max-width:270px){
+    .container input{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width:230px){
+    .container input{
+        width: 40px;
+        height: 40px;
+    }
+}
